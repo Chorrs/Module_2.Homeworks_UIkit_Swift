@@ -20,32 +20,26 @@
                                 <rect key="frame" x="20" y="59" width="390" height="380"/>
                                 <color key="backgroundColor" systemColor="systemMintColor"/>
                                 <color key="tintColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="380" id="Crq-wJ-qSh"/>
-                                    <constraint firstAttribute="width" constant="390" id="h1a-Hs-50a"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INO-R0-XRo">
-                                <rect key="frame" x="20" y="494" width="390" height="380"/>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INO-R0-XRo">
+                                <rect key="frame" x="20" y="495" width="390" height="380"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <color key="tintColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="390" id="2r3-DD-PEU"/>
-                                    <constraint firstAttribute="height" constant="380" id="t2Z-ei-4Q9"/>
-                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="INO-R0-XRo" secondAttribute="bottom" constant="23" id="Btu-hn-Vsj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I3X-te-jgT" secondAttribute="trailing" constant="20" id="Eaw-Gw-kah"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="INO-R0-XRo" secondAttribute="trailing" constant="20" id="Egc-Tx-hg3"/>
-                            <constraint firstItem="I3X-te-jgT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LER-Da-Vwa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I3X-te-jgT" secondAttribute="trailing" constant="20" id="UmU-LJ-Z7d"/>
-                            <constraint firstItem="I3X-te-jgT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="arI-Dw-xCO"/>
+                            <constraint firstItem="INO-R0-XRo" firstAttribute="top" secondItem="I3X-te-jgT" secondAttribute="bottom" constant="56" id="FpH-gU-ZEf"/>
+                            <constraint firstItem="INO-R0-XRo" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JZH-dz-Kfq"/>
+                            <constraint firstItem="I3X-te-jgT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZqQ-mC-Lq4"/>
+                            <constraint firstItem="I3X-te-jgT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gna-XH-BFv"/>
                             <constraint firstItem="I3X-te-jgT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="naM-6F-ZwN"/>
+                            <constraint firstItem="INO-R0-XRo" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="495" id="pu1-Cu-DSw"/>
                             <constraint firstItem="INO-R0-XRo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="taS-jg-B62"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="INO-R0-XRo" secondAttribute="bottom" constant="23" id="yWx-nu-b1Z"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -61,7 +55,7 @@
                     </constraints>
                 </view>
             </objects>
-            <point key="canvasLocation" x="-720" y="345.70815450643778"/>
+            <point key="canvasLocation" x="-1138" y="315"/>
         </scene>
     </scenes>
     <resources>
